@@ -1,8 +1,8 @@
-package io.github.onetwoeight.clearchat.listeners
+package io.github.boop.clearchat.listeners
 
-import io.github.onetwoeight.clearchat.ClearChatPlugin
-import io.github.onetwoeight.clearchat.utilities.CC
-import io.github.onetwoeight.clearchat.utilities.Random
+import io.github.boop.clearchat.ClearChatPlugin
+import io.github.boop.clearchat.utilities.CC
+import io.github.boop.clearchat.utilities.Random
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor
 import org.bukkit.command.Command
@@ -11,7 +11,7 @@ import org.bukkit.command.CommandSender
 
 
 /**
- * @author onetwoeight
+ * @author Boop
  * @since 4/14/2022
  */
 class ChatListener(private val plugin: ClearChatPlugin) : CommandExecutor {

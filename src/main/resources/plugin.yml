@@ -1,9 +1,9 @@
-main: io.github.onetwoeight.clearchat.ClearChatPlugin
+main: io.github.boop.clearchat.ClearChatPlugin
 name: ClearChat
 version: '$version'
 description: Plugin that allows you to wipe the chat of a single user or the entire server.
 load: STARTUP
-author: onetwoeight
+author: Boop
 website: https://github.com/128931/ClearChat
 api-version: '1.13'
 prefix: ClearChat

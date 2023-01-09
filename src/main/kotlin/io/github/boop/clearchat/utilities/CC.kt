@@ -1,10 +1,10 @@
-package io.github.onetwoeight.clearchat.utilities
+package io.github.boop.clearchat.utilities
 
 import org.bukkit.ChatColor
 
 
 /**
- * @author onetwoeight
+ * @author Boop
  * @since 5/1/2022
  */
 object CC {

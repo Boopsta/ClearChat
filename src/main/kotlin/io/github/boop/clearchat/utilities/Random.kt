@@ -1,10 +1,10 @@
-package io.github.onetwoeight.clearchat.utilities
+package io.github.boop.clearchat.utilities
 
 import kotlin.random.Random
 
 
 /**
- * @author onetwoeight
+ * @author Boop
  * @since 5/14/2022
  */
 object Random {

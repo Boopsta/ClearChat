@@ -1,4 +1,4 @@
-package io.github.onetwoeight.clearchat.statistics
+package io.github.boop.clearchat.statistics
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject

@@ -1,13 +1,13 @@
-package io.github.onetwoeight.clearchat
+package io.github.boop.clearchat
 
-import io.github.onetwoeight.clearchat.listeners.ChatListener
-import io.github.onetwoeight.clearchat.statistics.Metrics
-import io.github.onetwoeight.clearchat.utilities.CC
+import io.github.boop.clearchat.listeners.ChatListener
+import io.github.boop.clearchat.statistics.Metrics
+import io.github.boop.clearchat.utilities.CC
 import org.bukkit.plugin.java.JavaPlugin
 
 
 /**
- * @author onetwoeight
+ * @author Boop
  * @since 4/14/2022
  */
 class ClearChatPlugin : JavaPlugin() {
