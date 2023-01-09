@@ -20,7 +20,7 @@ import javax.net.ssl.HttpsURLConnection
 
 
 /**
- * The code was converted to Kotlin and cleaned up by 128931.
+ * The code was converted to Kotlin and cleaned up by Boop.
  *
  * @author BtoBastian
  * @since 2/17/2017
