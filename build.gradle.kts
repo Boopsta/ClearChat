@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.20-Beta"
+    kotlin("jvm") version "1.9.255-SNAPSHOT"
     id("org.sonarqube") version "4.0.0.2929"
 }
 
