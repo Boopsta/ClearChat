@@ -20,7 +20,7 @@ class ChatListener(private val plugin: ClearChatPlugin) : CommandExecutor {
         val prefix = "Prefix"
         if (args.isEmpty()) {
             for (i in 0..999) {
-                Bukkit.broadcastMessage(Random.nextSpace(30))
+                Bukkit.broadcastMessage(Random.nextSpace())
             }
             Bukkit.broadcastMessage(
                 CC.translate(
@@ -31,7 +31,7 @@ class ChatListener(private val plugin: ClearChatPlugin) : CommandExecutor {
         } else if (args.size == 1) {
             if (Bukkit.getPlayer(args[0])?.isOnline == true) {
                 for (i in 0..999) {
-                    Bukkit.getPlayer(args[0])?.sendMessage(Random.nextSpace(30))
+                    Bukkit.getPlayer(args[0])?.sendMessage(Random.nextSpace())
                 }
                 Bukkit.getPlayer(args[0])?.sendMessage(
                     CC.translate(
