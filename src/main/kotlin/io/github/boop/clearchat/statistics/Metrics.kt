@@ -96,9 +96,8 @@ class Metrics(
         builder.addProperty("coreCount", Runtime.getRuntime().availableProcessors())
     }
 
-    private fun appendServiceData(builder: JsonObject) {
+    private fun appendServiceData(builder: JsonObject) =
         builder.addProperty("pluginVersion", plugin.description.version)
-    }
 
     private val playerAmount: Int
         get() = try {

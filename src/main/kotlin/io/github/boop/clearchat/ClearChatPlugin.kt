@@ -27,7 +27,5 @@ class ClearChatPlugin : JavaPlugin() {
         logger.info("${description.name} v${description.version} Enabled")
     }
 
-    override fun onDisable() {
-        logger.info("${description.name} v${description.version} Disabled")
-    }
+    override fun onDisable() = logger.info("${description.name} v${description.version} Disabled")
 }
